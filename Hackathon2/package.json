@@ -16,6 +16,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "bulma": "^0.9.3",
         "sass": "^1.35.1",
         "sass-loader": "^12.1.0",
         "uikit": "^3.6.22"
