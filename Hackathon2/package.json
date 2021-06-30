@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "bulma": "^0.9.3",
+        "file-loader": "^6.2.0",
         "sass": "^1.35.1",
         "sass-loader": "^12.1.0",
         "uikit": "^3.6.22"
