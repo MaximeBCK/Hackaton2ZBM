@@ -1,6 +1,83 @@
-{% include 'base.html.twig' %}
+{% extends 'base.html.twig' %}
 
 {% block body %}
-<h1>{{ home }}</h1>
+    <main>
+        <div class ="body2">
+        <h1>.</h1>
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="build/Ricardo1.jpeg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Ricardo, Dev Web</h3>
+                        <a href="profil/" Hi>Hi</a>
+                            <p>Actuellement en formation à New York, je cherche à revenir sur Caen pour finir ma vie</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Bibor Ada</h3>
+                        <p>Un barman au grand coeur, et au code fournit</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="{{ asset('build/RicardoSmile.jpeg') }}" alt="" width="170" height="170">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="build/RicardoChristmas.jpeg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">STOP Top</h3>
+                        <p>On va pas ramener la coupe à la maison.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Zach le S</h3>
+                        <p>Revendeur de BMW, et schlaggueur de coeurs</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="images/light.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="images/light.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Becker Theory</h3>
+                        <p>J'en suis a 50 div différentes</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Ricardo Add Friendly</h3>
+                        <p>Tu le connais déjà</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="build/RicardoWatermark.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
 {% endblock %}
 

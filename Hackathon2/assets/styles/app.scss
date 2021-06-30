@@ -5,15 +5,15 @@
     font-family: 'Open Sans';
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-primary: #19A463;
+    --bg-secondary: #004119;
     --transition-speed: 600ms;
 }
 
 body {
-    color: black;
+    position: relative;
+    color: grey;
     background-color: white;
-    margin: 0;
     padding: 0;
     z-index: 2;
 }
@@ -36,7 +36,7 @@ main {
 }
 
 .navbar {
-    position: relative;
+    position: fixed;
     z-index: 1;
     background-color: var(--bg-primary);
     transition: width 600ms ease;
@@ -185,8 +185,8 @@ main {
 .dark {
     --text-primary: #b6b6b6;
     --text-secondary: #ececec;
-    --bg-primary: #23232e;
-    --bg-secondary: #141418;
+    --bg-primary: #004119;
+    --bg-secondary: #19A463;
 }
 
 .light {
@@ -218,3 +218,24 @@ main {
 .solar #solarIcon {
     display: block;
 }
+.RICARDO {
+    margin-top: 20vh;
+    margin-left: 35vw;
+    width: auto;
+}
+.uk-navbar-right {
+    background-color: #1c7430;
+    width: 100%;
+
+}
+.body2 {
+    margin-left: 10vw;
+    margin-top: 15vh;
+}
+.uk-navbar-nav {
+    margin-left: 60%;
+}
+.registermec {
+    margin-top:3vh;
+}
+
