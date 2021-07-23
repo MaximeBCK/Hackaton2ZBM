@@ -1,3 +1,3 @@
 # Hackaton2ZBM
 
-C'est la prez délinquante, des singes chalants imbriqués
+Hackaton numéro 2 de 2 jours réalisé au sein de la Wild Code School
